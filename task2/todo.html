@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>To-Do List | My Web Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>My Web Studio</h1>
+    <nav>
+      <a href="index.html">Contact</a>
+      <a href="todo.html" class="active">To-Do List</a>
+    </nav>
+  </header>
+
+  <main class="todo-container">
+    <h2>To-Do List</h2>
+    <div class="todo-input">
+      <input type="text" id="taskInput" placeholder="Add a task..." />
+      <button onclick="addTask()">Add</button>
+    </div>
+    <ul id="taskList"></ul>
+  </main>
+
+  <script src="todo.js"></script>
+</body>
+</html>

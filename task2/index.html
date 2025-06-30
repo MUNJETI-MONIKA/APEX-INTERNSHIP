@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us | My Web Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>My Web Studio</h1>
+    <nav>
+      <a href="index.html" class="active">Contact</a>
+      <a href="todo.html">To-Do List</a>
+    </nav>
+  </header>
+
+  <main class="form-container">
+    <h2>Contact Us</h2>
+
+    <!-- ✅ Notification Area -->
+    <div id="notification" class="notification" style="display: none;"></div>
+
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
